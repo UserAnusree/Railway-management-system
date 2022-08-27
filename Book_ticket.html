@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Booking Form</title>
+    <link rel="stylesheet" href="book ticket.css">
+     
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <form class="form-group">
+            <h1 class="text-center">Railway ticket Booking Form</h1>
+
+            <div id="form">
+                <h3 class="text-white">Booking Details</h3>
+
+            <div id="input">
+                <input type="text" id="input-group" placeholder="Source">
+                <input type="text" id="input-group" placeholder="Destination">
+                <input type="text" id="input-group" placeholder="Departure">
+                <input type="text" id="input-group" placeholder="Arrival Time">
+                <input type="text" id="input-group" placeholder="Train_No">
+                <select  id="input-group" style="background: black;">
+                    <option value="">Train_Name</option>
+                    <option value="">Suborno Express</option>
+                    <option value="">Turno Express</option>
+                    <option value="">Parabat Express</option>
+                    <option value="">Tista Express</option>
+                </select>
+                <select  id="input-group" style="background: black;">
+                    <option value="">Train_Class</option>
+                    <option value="">Economy Class</option>
+                    <option value="">Business Class</option>
+                    <option value="">First Class</option>
+                </select>
+                </div>
+                <div id="input2">
+                    <select  id="input-group" style="background: black;">
+                        <option value="">Seat Category</option>
+                        <option value="">Adult</option>
+                        <option value="">Child</option>
+                        <option value="">Disable</option>
+                        <option value="">Ladies</option>
+                    </select>    
+                </div>
+
+                <div id="input5">
+                    <h3 class="text-white">Payment Details</h3>
+                </div>
+
+                <div id="input6">
+                    <input type="text" id="input-group" placeholder="Name On Card">
+                    <input type="number" id="input-group" placeholder="Credit Card Number">
+                </div>
+                <div class="inputBox">
+                    <span class=" text-white">cards accepted :</span>
+                    <img src="https://img.icons8.com/color/48/000000/visa.png"/>
+            	<img src="https://img.icons8.com/color/48/000000/mastercard.png"/>
+            	<img src="https://img.icons8.com/color/48/000000/paypal.png"/>
+            	<img src="https://img.icons8.com/color/48/000000/bank-card-back-side.png"/>
+            	<img src="https://img.icons8.com/color/48/000000/amex.png"/>
+                </div>
+                
+                <button type="submit" class="btn btn-warning text-white">Submit Form</button>
+                <button type="reset" class="btn btn-primary">Clear Form</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
